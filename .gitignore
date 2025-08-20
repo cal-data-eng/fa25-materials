@@ -1,3 +1,8 @@
-/proj
-/disc
-/lec
+proj/*
+!proj/.gitkeep
+
+lec/*
+!lec/.gitkeep
+
+disc/*
+!disc/.gitkeep
