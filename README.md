@@ -1,4 +1,4 @@
-# DATA 101 Spring 2025 Student Materials
+# DATA 101 Fall 2025 Student Materials
 
 **[https://data101.org/]()**
 
