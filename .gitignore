@@ -1,5 +1,12 @@
+# Ignore everything in proj/
 proj/*
+
+# But keep .gitkeep
 !proj/.gitkeep
+
+# But keep project0 (and all its contents)
+!proj/proj0/
+
 
 lec/*
 !lec/.gitkeep
