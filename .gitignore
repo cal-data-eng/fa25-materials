@@ -6,6 +6,7 @@ proj/*
 
 # But keep project0 (and all its contents)
 !proj/proj0/
+!proj/proj1/
 
 
 lec/*
