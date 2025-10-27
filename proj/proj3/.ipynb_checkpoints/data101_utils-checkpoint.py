@@ -103,7 +103,7 @@ class GradingUtil(object):
         except psycopg.ProgrammingError as e:
                 # If a SQL statement like CREATE TABLE or CREATE VIEW is run,
                 # calling .fetchall() will result in an error.
-                if str(e) == "the last operation didn't produce a result":
+                if "didn't produce a result" in str(e) or "didn't produce records" in str(e):
                     results.append(None)
                 else:
                     raise e
@@ -118,7 +118,7 @@ class GradingUtil(object):
             except psycopg.ProgrammingError as e:
                 # If a SQL statement like CREATE TABLE or CREATE VIEW is run,
                 # calling .fetchall() will result in an error.
-                if str(e) == "the last operation didn't produce a result":
+                if "didn't produce a result" in str(e) or "didn't produce records" in str(e):
                     results.append(None)
                 else:
                     raise e
