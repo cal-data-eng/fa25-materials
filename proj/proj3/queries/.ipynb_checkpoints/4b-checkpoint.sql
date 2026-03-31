@@ -1,8 +1,0 @@
-DROP VIEW IF EXISTS complete;
-CREATE VIEW complete AS
-
--- BEGIN SOLUTION
-
--- END SOLUTION
-
-SELECT * FROM complete ORDER BY id, time LIMIT 100;

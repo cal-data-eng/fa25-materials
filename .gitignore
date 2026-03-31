@@ -17,3 +17,8 @@ lec/*
 
 disc/*
 !disc/.gitkeep
+
+**/.DS_Store
+**/.ipynb_checkpoints
+**/__pycache__
+**/.OTTER_LOG
